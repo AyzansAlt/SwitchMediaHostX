@@ -2,7 +2,7 @@
 <p align="center" style="font-size: 20;"> Host your Switch media over LAN. </br>Screenshots<br>Videos<br>And SDCard Contents</p>
 
 ##
-<i>Switch Media Host</i> is a simple python script that allows you to see your Switch screenshots, video clips, and all of your SDCard contents directly from your browser! <b>Note: You need to be on the same network as the Switch in order to see your files. </b> This allows for easier transfering, with a simple and clean design. <br><br>It achieves this by hosting a local webserver directly from the Switch, and then the script adjusts the webpage to fit your system accordingly!<br><br>Your Switch must have access to homebrew.
+<i>Switch Media Host X</i> is a simple python script that allows you to see your Switch screenshots, video clips, and all of your SDCard contents directly from your browser, that has been forked from [Switch Media Host](https://github.com/ImmaSpoon/Switch-Media-Host)! <b>Note: You need to be on the same network as the Switch in order to see your files. </b> This allows for easier transfering, with a simple and clean design. <br><br>It achieves this by hosting a local webserver directly from the Switch, and then the script adjusts the webpage to fit your system accordingly!<br><br>Your Switch must have access to homebrew.
 
 ## Tables of Contents
 • <a style="font-size: 8px;" href="#features">Features</a><br>
@@ -23,7 +23,7 @@ Simple Custom Themes
 
 
 ## How to download and install
-<p style="font-size: 14px;" id="install">1.) Go to the <a href="https://github.com/ImmaSpoon/Switch-Media-Host/releases">releases</a> page and download the latest release<br><br>2.) Make sure you have the latest <a href="https://github.com/nx-python/PyNX/releases">PyNX</a><br><br>3.)Extract all of the zips into the root of the SDCard
+<p style="font-size: 14px;" id="install">1.) Go to the <a href="https://github.com/Ayzansalt/Switchmediahostx/releases">releases</a> page and download the latest release<br><br>2.) Make sure you have the latest <a href="https://github.com/nx-python/PyNX/releases">PyNX</a><br><br>3.)Extract all of the zips into the root of the SDCard
 
 ## How to use
 <p style="font-size: 14px;" id="use">1.) Once you have everything installed, turn on your Switch and open PyNX from the Homebrew menu<br><br>2.) Open 'Switch Media Host.py' <br><a style="font-size: 8px;"> Rename this file to 'main.py' to have it launch instantly</a><br><br>3.) Give it a few seconds to load<br><br>4.) Go to the URL printed on the Switch, and you're done!
