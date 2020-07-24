@@ -245,6 +245,19 @@ stdout.write('''\n\n\n\n\n\n\n
                 #+#    #+# #+#    #+# #+#    #+#     #+#     
                 ###    ###  ########   ########      ###
                 
+                
+                
+                      ::::                     ::::
+                        :++:                 :++:
+                          :#:               :#:
+                              #+#       #+#
+                                =+=   =+=
+                                   +=+
+                                =+=   =+=
+                              #+#       #+#
+                          ++              :#:
+                        :++:                 :++:
+                              
 ''' + "\n\n\n\nVersion " + version_num + "\nPut the address below in your browser on another device:\n\n%s:%d/SwitchMediaHost/\n" % (get_ip(), 8000));
 stdout.flush()
 httpd.serve_forever()
